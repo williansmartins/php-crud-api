@@ -1914,8 +1914,8 @@ $api = new PHP_CRUD_API(array(
 	'dbengine'=>'MySQL',
 	'hostname'=>'localhost',
 	'username'=>'root',
-	'password'=>'root',
-	'database'=>'tuts_rest',
+	'password'=>'',
+	'database'=>'rest',
 	'charset'=>'utf8'
 ));
 $api->executeCommand();
